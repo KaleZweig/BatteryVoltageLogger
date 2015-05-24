@@ -16,7 +16,7 @@ void setup()
   if (!SD.begin(chipSelect)) {
     Serial.println("Failed to communicate with SD card");
   }
-  Serial.println("Initialized")
+  Serial.println("Initialized");
 }
 
 void loop()
@@ -50,6 +50,7 @@ void loop()
   }
   
   //We doon't need that many data points
-  delay(200);
+  delay(2500);
 }
+
 
